@@ -95,3 +95,20 @@ la pantalla principal */
     font-size: 2rem;
 }
 
+.seccion2{
+    background-color: darkturquoise;
+}
+
+.cartel1{
+    text-align: center;
+    border-style: solid;
+    border-width: 0.3rem;
+    width: 25%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.columnas{
+    display: flex;
+    justify-content: space-evenly;
+}
