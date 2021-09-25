@@ -126,9 +126,28 @@ la pantalla principal */
     flex-direction: row;
     justify-content: space-between;
     padding: 0 10rem 4rem 10rem;
+    
 }/* si quiero modificar alguna de las dos columnas puedo usar la clase "misionyVision". También ver la forma de desplazar las 2 columnas*/
 
+.mision{
+    border-style: solid;
+    border-width: 0.3rem;
+    border-radius: 10px;
+    padding: 0 3rem 0 3rem;
+}
+.vision{
+    border-style: solid;
+    border-width: 0.3rem;
+    border-radius: 10px;
+    padding: 0 3rem 0 3rem;
+
+}
 .valor{
     display: flex;
     justify-content: center;
+    border-style: solid;
+    border-width: 0.3rem;
+    width: 25%;
+    margin: auto;
+    border-radius: 10px;
 }
