@@ -71,7 +71,7 @@ nav ul li a:hover{
 
 /*Ojota  */
 
-.banner{
+.seccion1{
     background-color: gray;
     padding: 10rem 0 0 0;
     width: 100%;
@@ -101,6 +101,7 @@ la pantalla principal */
 /* Seccion2 */
 .seccion2{
     background-color: darkturquoise;
+    padding: 0 0 3rem 0;
 }
 
 .cartel1{
@@ -115,13 +116,13 @@ la pantalla principal */
 .columnas{
     display: flex;
     justify-content: space-evenly;
-    padding: 0.75rem 0 0.75rem 0;
+    padding: 0.75rem 0 0 0;
 } /* para modificar cada columna usar la clase "columna" */
 
 /* Seccion 3 */
 .seccion3{
     background-color: darkviolet;
-    padding: 1rem 0 3rem 0;
+    padding: 0 0 3rem 0;
 }
 
 .columnasMisionyVision {
@@ -159,6 +160,7 @@ la pantalla principal */
     background-color: lawngreen;
     display: flex;
     width: 100%;
+    padding: 0 0 3rem 0 ;
 /*     justify-content: center;
     align-content: center; */
     gap: 10px;
@@ -172,4 +174,26 @@ text-align: center;
 .nuestrosClientesTexto{
 width: 65%;
 
+}
+
+footer{
+    display: flex;
+    background-color: lightsalmon;
+    justify-content: space-around;
+    padding: 0 0 8rem 0;
+}
+
+.logoFooter{
+    width: 50%;
+    justify-items: center; /* buscar como centralizar un elemento en FlexBox */
+    text-align: center;
+
+}
+
+.columnaFooter1{
+    width: 25%;
+}
+
+.columnaFooter2{
+    width: 25%;
 }
