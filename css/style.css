@@ -71,23 +71,24 @@ nav ul li a:hover{
 
 /*Ojota  */
 
-.bloqueBanner
-{
-    width: 100%;
+.banner{
     background-color: gray;
-    padding-left: 50px;
-    padding-top: 30px;
-    padding-bottom: 40px;
+    padding: 10rem 0 0 3rem;
+    width: 100%;
+    height: 12rem;
+    
 }
 
-.fraseGrande {
-    font-size: 72px;
-    color: greenyellow;
+.frasePrincipal{
+    color: white;
+    font-size: 5rem;
 }
-.fraseMedia{
-    font-size: 34px;
+.fraseSecundaria{
+    color: darkslategrey;
+    font-size: 2rem;
 }
 
-/* Perguntar como se puede hacer para que los dos bloques 
+
+/* Perguntar como se puede hacer para que los dos bloques
 de FraseGrande y Frase media ocupen todo el alto de
 la pantalla principal */
