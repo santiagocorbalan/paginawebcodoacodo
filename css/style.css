@@ -78,17 +78,20 @@ nav ul li a:hover{
     height: 12rem;
     
 }
-
+/*  1.Como sacar la barra de desplazamiento.
+    2.Preguntar como se puede hacer para que los dos bloques
+de FraseGrande y Frase media ocupen todo el alto de
+la pantalla principal */
 .frasePrincipal{
     color: white;
     font-size: 5rem;
+    /* width: 75%;  ---- esto esta comentado ya que quiero resolver la duda de la barra de desplazamiento
+    border-style: solid;
+    border-width: 0.5rem;
+    margin-right: 0;   */
 }
 .fraseSecundaria{
     color: darkslategrey;
     font-size: 2rem;
 }
 
-
-/* Perguntar como se puede hacer para que los dos bloques
-de FraseGrande y Frase media ocupen todo el alto de
-la pantalla principal */
