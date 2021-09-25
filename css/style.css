@@ -118,15 +118,17 @@ la pantalla principal */
 /* Seccion 3 */
 .seccion3{
     background-color: darkviolet;
+    padding: 1rem 0 3rem 0;
 }
 
 .columnasMisionyVision {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 10rem 0 10rem;
-}/* si quiero modificar alguna de las dos columnas puedo usar la clase "misionyVision" */
+    padding: 0 10rem 4rem 10rem;
+}/* si quiero modificar alguna de las dos columnas puedo usar la clase "misionyVision". También ver la forma de desplazar las 2 columnas*/
 
 .valor{
     display: flex;
+    justify-content: center;
 }
