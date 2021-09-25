@@ -74,7 +74,7 @@ nav ul li a:hover{
 }
 
 
-/*Ojota  */
+/*Seccion 1  */
 
 .seccion1{
     background-color: white;
@@ -176,6 +176,7 @@ la pantalla principal */
 .nuestrosClientes{
 width: 35%;
 text-align: center;
+font-weight: bold;
 }
 
 .nuestrosClientesTexto{
@@ -187,7 +188,7 @@ footer{
     display: flex;
     background-color: #000000;    ;
     justify-content: space-around;
-    padding: 0 0 8rem 0;
+    padding: 0 0 3rem 0;
 }
 
 .logoFooter{
