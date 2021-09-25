@@ -68,6 +68,9 @@ nav ul li a:hover{
     color: #444;
 }
 
+
+/*Ojota  */
+
 .bloqueBanner
 {
     width: 100%;
@@ -133,68 +136,29 @@ text-align: center;
 
 }
 
-footer
-{
-display: flex;
-flex-flow: row wrap;
-padding: 50px;
-color: #fff;
-background-color: violet;
+footer{
+    width: 100%;
+    background-color: chartreuse;
 }
 
-.footer > * {
-    flex: 1 100%;
-}
-
-.footerLogo{
-    margin-right: 1.25em;
-    margin-bottom: 2em;
-    width: 75%;
-}
-h2{
-font-weight: 600;
-font-size: 17px;
-}
-
-.footer ul{
-    list-style: none; /* sacar estilo */
-    padding-left: 0;
-}
-
-.footer li{
-    line-height: 2em;
-}
-
-.footer a{
-    text-decoration: none;
-}
-
-.footerColumnas{
+.columnas{
     display: flex;
     flex-flow: row wrap;
-}
-.footerColumnas > *{
-    flex: 1 50%;
-    margin-right: 1.25em;
-}
-.footerContenido a{
-    color: #999;
+    justify-content: center;
+    
 }
 
-.footerDerechosReservados{
-    text-align:center ;
-    color: #999;
-    padding-top: 50px;
+.columna{
+    flex: 1;
+    border: 1px solid blue;
+
 }
 
-.footerLogo p {
-    padding-right: 20%;
-    color: #999;
+.columna:first-child{
+    margin-left: 0;
+    flex:3;
 }
 
-.footerColumnas p
-{
-    padding-right: 20%;
-    color:#999;
+.columna:last-child{
+    margin-right: 0;
 }
-
