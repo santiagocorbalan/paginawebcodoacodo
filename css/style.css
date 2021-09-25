@@ -95,6 +95,7 @@ la pantalla principal */
     font-size: 2rem;
 }
 
+/* Seccion2 */
 .seccion2{
     background-color: darkturquoise;
 }
@@ -111,4 +112,21 @@ la pantalla principal */
 .columnas{
     display: flex;
     justify-content: space-evenly;
+    padding: 0.75rem 0 0.75rem 0;
+} /* para modificar cada columna usar la clase "columna" */
+
+/* Seccion 3 */
+.seccion3{
+    background-color: darkviolet;
+}
+
+.columnasMisionyVision {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10rem 0 10rem;
+}/* si quiero modificar alguna de las dos columnas puedo usar la clase "misionyVision" */
+
+.valor{
+    display: flex;
 }
