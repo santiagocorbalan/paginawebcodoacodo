@@ -4,9 +4,14 @@
     padding: 0;
 }
 
+/* 
+1. Tabla de colores:
+    -
+*/
+
 header{
     width: 100%;
-    background-color: yellow;
+    background-color:#212f3d;
     height: 70px;
     position:fixed;
     z-index: 100; /* mostrar el menu por encima de todos los elementos */
@@ -32,7 +37,7 @@ header{
 
 .logo p a 
 {
-    color:rgb(88, 75, 70);
+    color: #e5e7e9;    ;
     font-size: 40px;
     text-decoration: none;
 }
@@ -65,14 +70,14 @@ nav ul li a
 }
 
 nav ul li a:hover{
-    color: #444;
+    color:#DAF7A6;
 }
 
 
 /*Ojota  */
 
 .seccion1{
-    background-color: gray;
+    background-color: white;
     padding: 10rem 0 0 0;
     width: 100%;
     height: 12rem;
@@ -83,24 +88,25 @@ nav ul li a:hover{
 de FraseGrande y Frase media ocupen todo el alto de
 la pantalla principal */
 .frasePrincipal{
-    color: white;
+    color:#17202a;
     font-size: 5rem;
-    padding-left: 3rem;
+    padding-left: 8rem;
+    font-weight: bold; /* esta propiedad hace que la letra sea negrita */
     /* width: 75%;  ---- esto esta comentado ya que quiero resolver la duda de la barra de desplazamiento
     border-style: solid;
     border-width: 0.5rem;
     margin-right: 0;   */
 }
 .fraseSecundaria{
-    color: darkslategrey;
+    color: #17202a;
     font-size: 2rem;
-    padding-left: 3rem;
+    padding-left: 8rem;
 
 }
 
 /* Seccion2 */
 .seccion2{
-    background-color: darkturquoise;
+    background-color: #e5e7e9;
     padding: 0 0 3rem 0;
 }
 
@@ -121,7 +127,7 @@ la pantalla principal */
 
 /* Seccion 3 */
 .seccion3{
-    background-color: darkviolet;
+    background-color: #e5e7e9;
     padding: 0 0 3rem 0;
 }
 
@@ -156,8 +162,9 @@ la pantalla principal */
     border-radius: 10px;
 }
 
+/* comienza la seccion 4 */
 .seccion4{
-    background-color: lawngreen;
+    background-color: white;
     display: flex;
     width: 100%;
     padding: 0 0 3rem 0 ;
@@ -178,7 +185,7 @@ width: 65%;
 
 footer{
     display: flex;
-    background-color: lightsalmon;
+    background-color: #000000;    ;
     justify-content: space-around;
     padding: 0 0 8rem 0;
 }
@@ -189,11 +196,16 @@ footer{
     text-align: center;
 
 }
-
+.imglogo{
+    width: 150px;
+    height: 150px;
+}
 .columnaFooter1{
     width: 25%;
+    color: white;
 }
 
 .columnaFooter2{
     width: 25%;
+    color: white;
 }
