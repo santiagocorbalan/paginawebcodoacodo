@@ -197,31 +197,31 @@ footer{
 .logoFooter{
    /*  width: 35%; a modificar*/
     justify-items: center; /* buscar como centralizar un elemento en FlexBox */
-    text-align: center;
+   
 
 }
 .imglogo{
     width: 250px;
     height: 250px;
+    padding-left: 7rem;
 }
 .columnaFooter1{
-    width: 25%;
-    color: white
+    width: 20%;
+    color: white;
+    padding: 1.5rem 0 0 0;
 }
 
 .columnaFooter1 h2 {
     padding: 0 0 2rem 0;
-/*     text-align: center;
- */}
+    text-align: center;
+ }
 
 .columnaFooter1 iframe{
     text-align: center;
+    border: 2px solid rgb(223, 219, 219);
+    width: 100%;
 }
 
-iframe {
-    border: 2px solid rgb(223, 219, 219);
-/*     width: 100%;
- */}
 
 .output {
     background: #eee;
@@ -230,9 +230,9 @@ iframe {
  /* Segunda columna de Redes Sociales */
 
 .columnaFooter2{
-    width: 25%;
+    width: 20%;
     color: white;
-    padding: 0 2rem 0 0;
+    padding: 0 4.5rem 0 0;
 }
 
 .columnaFooter2 h2 {
@@ -241,31 +241,36 @@ padding-bottom: 3.5rem;
 }
 
 /* Preguntar la diferencia entre justify-content y align-content */
-.contenedorDeIconos{
+.contenedorDeIconos {
     display: flex;
     justify-content: space-between;
     align-content: space-around;
     gap: 1.3rem;
-
 } 
 
 /* Consultar porque se pintan todos del color del primer hijo desde que agregué el enlace para cada icono. */
 
-.contenedorDeIconos a :nth-child(1){
+/* a:link, a:visited, a:active {
+    text-decoration:none;
+} */
+
+.contenedorDeIconos a:nth-child(1){
     color: #3b5998;
     font-size: 3.5rem;
 }
 
-.contenedorDeIconos a :nth-child(2){
-/*     color: #833AB4; -- Averiguar como hacer para dar varios colores a un Icono
- */    font-size: 3.5rem;
+.contenedorDeIconos a:nth-child(2){
+ color: #fff;  /* Averiguar como hacer para dar varios colores a un Icono */
+    font-size: 3.5rem;
 }
 
-.contenedorDeIconos a :nth-child(3){
+.contenedorDeIconos a:nth-child(3){
     color:#c4302b;
     font-size: 3.5rem;
 }
 
-.contenedorDeIconos a :nth-child(4){
+.contenedorDeIconos a:nth-child(4){
+    color: #fff;
     font-size: 3.5rem;
 }
+
