@@ -238,6 +238,7 @@ footer{
 .columnaFooter2 h2 {
 text-align: center;
 padding-bottom: 3.5rem;
+padding-left: 1.5rem;
 }
 
 /* Preguntar la diferencia entre justify-content y align-content */
