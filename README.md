@@ -55,3 +55,10 @@ Aplicaciones escritorio/servidor
 
 grunt-webfont: https://www.npmjs.com/package/grunt-webfont
 FontForge (editor de fuentes en general): http://fontforge.github.io/en-US/
+
+
+Fuente de texto: 
+https://fonts.google.com/specimen/Prompt <!-- Usada actualmente -->
+https://fonts.google.com/specimen/Nanum+Myeongjo
+
+<!-- To do: Hacer una lista con las fuentes que se utilizan para cada sección -->

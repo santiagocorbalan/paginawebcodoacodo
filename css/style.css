@@ -101,7 +101,9 @@ la pantalla principal */
     color: #17202a;
     font-size: 2rem;
     padding-left: 8rem;
-
+    font-family: 'Prompt', sans-serif;
+    font-weight: 100;
+    font-style: italic;
 }
 
 /* Seccion2 */
