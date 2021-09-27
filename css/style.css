@@ -184,29 +184,88 @@ width: 65%;
 
 }
 
+/* Ultima sección pie de página */
+
 footer{
     display: flex;
     background-color: #000000;    ;
-    justify-content: space-around;
-    padding: 0 0 3rem 0;
+    justify-content: space-between; /*space-aroud space-between */
+    padding: 0 0 1rem 0;
+    align-items: center;
 }
-
+/* preguntar como hacer en flexbox una división con más proporción de alguna columna */
 .logoFooter{
-    width: 50%;
+   /*  width: 35%; a modificar*/
     justify-items: center; /* buscar como centralizar un elemento en FlexBox */
     text-align: center;
 
 }
 .imglogo{
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
 }
 .columnaFooter1{
     width: 25%;
-    color: white;
+    color: white
 }
+
+.columnaFooter1 h2 {
+    padding: 0 0 2rem 0;
+/*     text-align: center;
+ */}
+
+.columnaFooter1 iframe{
+    text-align: center;
+}
+
+iframe {
+    border: 2px solid rgb(223, 219, 219);
+/*     width: 100%;
+ */}
+
+.output {
+    background: #eee;
+}
+
+ /* Segunda columna de Redes Sociales */
 
 .columnaFooter2{
     width: 25%;
     color: white;
+    padding: 0 2rem 0 0;
+}
+
+.columnaFooter2 h2 {
+text-align: center;
+padding-bottom: 3.5rem;
+}
+
+/* Preguntar la diferencia entre justify-content y align-content */
+.contenedorDeIconos{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+    gap: 1.3rem;
+
+} 
+
+/* Consultar porque se pintan todos del color del primer hijo desde que agregué el enlace para cada icono. */
+
+.contenedorDeIconos a :nth-child(1){
+    color: #3b5998;
+    font-size: 3.5rem;
+}
+
+.contenedorDeIconos a :nth-child(2){
+/*     color: #833AB4; -- Averiguar como hacer para dar varios colores a un Icono
+ */    font-size: 3.5rem;
+}
+
+.contenedorDeIconos a :nth-child(3){
+    color:#c4302b;
+    font-size: 3.5rem;
+}
+
+.contenedorDeIconos a :nth-child(4){
+    font-size: 3.5rem;
 }

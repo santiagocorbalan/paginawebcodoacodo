@@ -42,3 +42,16 @@ $color-3: #212f3d;
 $color-4: #e5e7e9;
 $color-5: #DAF7A6;
 $color-6: #FFC300;
+
+Fuentes para descargar Iconos: 
+
+Aplicaciones web
+
+Fontastic: http://fontastic.me/
+Fontello: http://fontello.com/
+Icomoon: https://icomoon.io/app/#/select
+FlatIcon: https://www.flaticon.com/
+Aplicaciones escritorio/servidor
+
+grunt-webfont: https://www.npmjs.com/package/grunt-webfont
+FontForge (editor de fuentes en general): http://fontforge.github.io/en-US/
