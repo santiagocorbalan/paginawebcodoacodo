@@ -67,12 +67,16 @@ nav ul li a
     padding-left: 15px;
     font-weight: bold;
     letter-spacing: 1px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400; /* Fuente para la barra de navegación */
 }
 
 nav ul li a:hover{
     color:#DAF7A6;
 }
-
+/* .active {
+    background-color: #04AA6D;
+} */
 
 /*Seccion 1  */
 
@@ -91,6 +95,8 @@ la pantalla principal */
     color:#17202a;
     font-size: 5rem;
     padding-left: 8rem;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 500;
     font-weight: bold; /* esta propiedad hace que la letra sea negrita */
     /* width: 75%;  ---- esto esta comentado ya que quiero resolver la duda de la barra de desplazamiento
     border-style: solid;
@@ -179,11 +185,14 @@ la pantalla principal */
 width: 35%;
 text-align: center;
 font-weight: bold;
+font-family: 'Prompt', sans-serif;
+font-weight: 500;
 }
 
 .nuestrosClientesTexto{
 width: 65%;
-
+font-family: 'Prompt', sans-serif;
+font-weight: 300;
 }
 
 /* Ultima sección pie de página */
@@ -199,7 +208,6 @@ footer{
 .logoFooter{
    /*  width: 35%; a modificar*/
     justify-items: center; /* buscar como centralizar un elemento en FlexBox */
-   
 
 }
 .imglogo{
@@ -211,11 +219,14 @@ footer{
     width: 20%;
     color: white;
     padding: 1.5rem 0 0 0;
+    
 }
 
 .columnaFooter1 h2 {
     padding: 0 0 2rem 0;
     text-align: center;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 500;
  }
 
 .columnaFooter1 iframe{
@@ -241,6 +252,8 @@ footer{
 text-align: center;
 padding-bottom: 3.5rem;
 padding-left: 1.5rem;
+font-family: 'Prompt', sans-serif;
+font-weight: 500;
 }
 
 /* Preguntar la diferencia entre justify-content y align-content */
@@ -263,9 +276,10 @@ padding-left: 1.5rem;
 }
 
 .contenedorDeIconos a:nth-child(2){
- color: #fff;  /* Averiguar como hacer para dar varios colores a un Icono */
+    color: #fff;  /* Averiguar como hacer para dar varios colores a un Icono */
     font-size: 3.5rem;
-}
+/*  background-image: linear-gradient(red,yellow);
+ */}
 
 .contenedorDeIconos a:nth-child(3){
     color:#c4302b;
