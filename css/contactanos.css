@@ -1,0 +1,180 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+1. Tabla de colores:
+    -
+*/
+
+header{
+    width: 100%;
+    background-color:#212f3d;
+    height: 70px;
+    position:fixed;
+    z-index: 100; /* mostrar el menu por encima de todos los elementos */
+}
+
+.cajaDeMenu
+{
+    width: 80%;
+    height: 70px;
+    /* background:red; */
+    margin: auto; /* reacomoda en el centro del tamaño de la caja de menú */
+}
+
+.logo
+{
+    width: 30%;
+    height: 70px;
+/*     background: blue; */
+    float: left;
+    padding-top: 10px;
+    box-sizing: border-box; /* // fuerza a ocupar el ancho del contenedor */
+}
+
+.logo p a 
+{
+    color: #e5e7e9;    ;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+nav
+{
+    width: 70%;
+    height: 70px;
+/*     background: olive; */
+    float: left;
+    text-align: right;
+    padding-top: 24px; /* esto es para centralizar el menú en la navegación */
+    box-sizing: border-box;
+}
+
+nav ul li 
+{
+    display: inline;
+    
+}
+
+nav ul li a 
+{
+    color: white;
+    font-size: 13 px;
+    text-decoration: none;
+    padding-left: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400; /* Fuente para la barra de navegación */
+}
+
+nav ul li a:hover{
+    color:#DAF7A6;
+}
+/* .active {
+    background-color: #04AA6D;
+} */
+
+
+
+
+
+
+/* Footer */
+
+footer{
+    display: flex;
+    background-color: #000000;    ;
+    justify-content: space-between; /*space-aroud space-between */
+    padding: 0 0 1rem 0;
+    align-items: center;
+}
+/* preguntar como hacer en flexbox una división con más proporción de alguna columna */
+.logoFooter{
+   /*  width: 35%; a modificar*/
+    justify-items: center; /* buscar como centralizar un elemento en FlexBox */
+
+}
+.imglogo{
+    width: 250px;
+    height: 250px;
+    padding-left: 7rem;
+}
+.columnaFooter1{
+    width: 20%;
+    color: white;
+    padding: 1.5rem 0 0 0;
+    
+}
+
+.columnaFooter1 h2 {
+    padding: 0 0 2rem 0;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 500;
+ }
+
+.columnaFooter1 iframe{
+    text-align: center;
+    border: 2px solid rgb(223, 219, 219);
+    width: 100%;
+}
+
+
+.output {
+    background: #eee;
+}
+
+ /* Segunda columna de Redes Sociales */
+
+.columnaFooter2{
+    width: 20%;
+    color: white;
+    padding: 0 4.5rem 0 0;
+}
+
+.columnaFooter2 h2 {
+text-align: center;
+padding-bottom: 3.5rem;
+padding-left: 1.5rem;
+font-family: 'Prompt', sans-serif;
+font-weight: 500;
+}
+
+/* Preguntar la diferencia entre justify-content y align-content */
+.contenedorDeIconos {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+    gap: 1.3rem;
+} 
+
+/* Consultar porque se pintan todos del color del primer hijo desde que agregué el enlace para cada icono. */
+
+/* a:link, a:visited, a:active {
+    text-decoration:none;
+} */
+
+.contenedorDeIconos a:nth-child(1){
+    color: #3b5998;
+    font-size: 3.5rem;
+}
+
+.contenedorDeIconos a:nth-child(2){
+    color: #fff;  /* Averiguar como hacer para dar varios colores a un Icono */
+    font-size: 3.5rem;
+/*  background-image: linear-gradient(red,yellow);
+ */}
+
+.contenedorDeIconos a:nth-child(3){
+    color:#c4302b;
+    font-size: 3.5rem;
+}
+
+.contenedorDeIconos a:nth-child(4){
+    color: #fff;
+    font-size: 3.5rem;
+}
