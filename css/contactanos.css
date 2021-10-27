@@ -4,11 +4,6 @@
     padding: 0;
 }
 
-/* 
-1. Tabla de colores:
-    -
-*/
-
 header{
     width: 100%;
     background-color:#212f3d;
@@ -37,7 +32,7 @@ header{
 
 .logo p a 
 {
-    color: #e5e7e9;    ;
+    color: #e5e7e9;
     font-size: 40px;
     text-decoration: none;
 }
@@ -78,12 +73,154 @@ nav ul li a:hover{
     background-color: #04AA6D;
 } */
 
+/* -------------------------- Body ----------------------- */
+
+/* Como usé la propiedad position: fixed tengo que darle un padding para que no se pise con el menú*/
+
+.titulo{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 500;
+    font-weight: bold;
+    color:#A8C279;
+    width: auto;
+    background:#e5e7e9 ;
+    
+}
+
+/*Agrego padding al flexbox para que no esté pegado el footer  */
+.flexbox-container {
+	display: flex;
+    padding: 5rem 0 4rem 0;
+}
+
+.flexbox-container > div {
+	width: 50%;
+	padding: 10px;
+  background: #fff;
+}
+
+.flexbox-container > div:first-child {
+	margin-right: 20px;
+}
+
+.columnaIzquierda {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.columnaIzquierda h3 {
+    
+    font-size: 2rem;
+    color: black;
+    padding: 0rem 0.5rem 2rem 0.5rem;
+    /* align-items: center; */
+    text-align: left;
+    font-size: 2rem;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 500;
+    font-weight: bold;
+ }
+
+.columnaIzquierda h3 p {
+    font-size: 1rem;
+    padding: 2rem 0 0 0;
+    text-align: left;
+/*     font-size: 2rem;
+ */    font-family: 'Prompt', sans-serif;
+    font-weight: 300;
+}
+
+.contenedorDeIconosContactanos {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1.3rem;
+    padding: 2rem 0 2rem 0;
+} 
+
+.contenedorDeIconosContactanos a:nth-child(1){
+    color: #3b5998;
+    font-size: 3.5rem;
+}
+
+.contenedorDeIconosContactanos a:nth-child(2){
+    color: rgb(0, 0, 0);  /* Averiguar como hacer para dar varios colores a un Icono */
+    font-size: 3.5rem;
+}
+
+.contenedorDeIconosContactanos a:nth-child(3){
+    color:#c4302b;
+    font-size: 3.5rem;
+}
+
+.contenedorDeIconosContactanos a:nth-child(4){
+    color: rgb(0, 0, 0);
+    font-size: 3.5rem;
+}
+
+/* Formulario */
 
 
+.formularioDeConsulta {
+    width: 400px;
+    background: #A8C279;
+    padding: 30px;
+    margin: auto;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #A8C279;
+  }
+  
+  .formularioDeConsulta h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .campoDeFormulario {
+    width: 100%;
+    background: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #FFC300;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+  
+  .formularioDeConsulta p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .formularioDeConsulta a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .formularioDeConsulta a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .formularioDeConsulta .botons {
+    width: 100%;
+    background: #FFC300;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
 
-
-
-/* Footer */
+/* ----------------------- Footer ---------------------- */
 
 footer{
     display: flex;

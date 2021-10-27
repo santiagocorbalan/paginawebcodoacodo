@@ -14,28 +14,56 @@
     <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet"> <!-- No se para que funcionan las últimas 2 pero las pongo igual -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-</head>
-<body>
-        <!-- Menú principal -->
-        <header>
-            <div class= "cajaDeMenu">
-                <div class ="logo">
-                    <p><a href="">Venner PR</a></p>
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="contactanos.html">Contactanos</a></li>
-                        <li><a href="sobreNosotros.html">Sobre nosotros</a></li>
-                    </ul>
-                </nav>
+    
+    </head>
+    
+    <!-- Menú principal -->
+    <header>
+        <div class= "cajaDeMenu">
+            <div class ="logo">
+                <p><a href="">Venner PR</a></p>
             </div>
-        </header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="contactanos.html">Contactanos</a></li>
+                    <li><a href="sobreNosotros.html">Sobre nosotros</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <body>
 
 <!-- Sección 1 -->
+<h1 class= "titulo">Formulario de contacto</h1>
+<div class="flexbox-container">
+    <div class = "columnaIzquierda">
+        <h3 class="columnaIzquierdaTexto1">Encontranos en:
+            <p>Av. Corrientes 1771, C1042AAD, Once, CABA</p>
+        </h3>
 
-
+        <h3>Seguinos en nuestras redes sociales
+            <div class = "contenedorDeIconosContactanos">
+                <a href="http://facebook.com"><i class="fab fa-facebook"></i></a>
+                <a href="http://instagram.com"><i class="fab fa-instagram"></i></a>
+                <a href="http://youtube.com"><i class="fab fa-youtube"></i></a>
+                <a href="http://tiktok.com"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </h3>
+    </div>
+    <form class="formularioDeConsulta"> <!--form-register  controls -->
+        <h4>¿Algún comentario que quieras hacernos? ¡Te invito a que completes este formulario con tus comentarios!</h4>
+        <input class="campoDeFormulario" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+        <input class="campoDeFormulario" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+        <input class="campoDeFormulario" type="email" name="correo" id="correo" placeholder="Ingrese su Correo electronico">
+        <textarea class = "campoDeFormulario" name="comentario" rows="10" cols="40" placeholder="Escriba su consulta / comentario..."></textarea>
+        <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+        <input class="botons" type="submit" value="Enviar">
+    </form>
+</div>
 </body>
+
 <!-- Footer: pie de página con 3 columnas, logo y 2 más. -->
 <footer class="columnasDelFooter">
     <div class = "logoFooter">

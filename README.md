@@ -61,4 +61,6 @@ Fuente de texto:
 https://fonts.google.com/specimen/Prompt <!-- Usada actualmente -->
 https://fonts.google.com/specimen/Nanum+Myeongjo
 
+
+<!-- Color verde usado para el body : A8C279 -->
 <!-- To do: Hacer una lista con las fuentes que se utilizan para cada sección -->

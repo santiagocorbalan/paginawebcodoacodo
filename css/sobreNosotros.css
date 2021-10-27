@@ -79,7 +79,130 @@ nav ul li a:hover{
 } */
 
 
-/* Footer */
+/*------------------- Body------------------- */
+
+.contenedorQuienesSomos{
+    padding: 6rem;
+    background:#e5e7e9;
+ }
+
+.tituloDeSeccion1 {
+    width: fit-content; /* se ajusta lo justo y necesario */
+    border-radius: 25px;
+}
+
+.tituloDeSeccion1 h1{
+    font-size: 2rem;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 500;
+    font-weight: bold;
+    color:#A8C279;
+    width: auto;
+    
+}
+.textoDeSeccion1{
+    justify-content: center;
+    background:#A8C279;
+    margin: 1rem 9rem 0 9rem;
+    padding: 1rem 0 1rem 0;
+/*     width: 50%;
+ */}
+
+.textoDeSeccion1 h6{
+    text-align: left;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
+    color:white;
+    font-size: 12px;
+    margin: 0 0 0 2rem;
+}
+
+.contenedorDeHistoria {
+    text-align: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorDeTextoeImagen {
+    background: #FFC300;
+   width: 700px;
+   height: 450px;
+   position: relative;
+}
+.contenedorDeTextoeImagen img {
+    z-index: 1;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    left: 500px;
+    top: 65px;
+}
+
+.contenedorDeTexto{
+    width: 50%;
+    margin: 2rem 0 0 4rem;
+}
+
+.contenedorDeTexto h2{
+    text-align: left;
+    font-size: 2rem;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 500;
+    font-weight: bold;
+    color:white;
+}
+.contenedorDeTexto h4 {
+    text-align: left;
+    font-size: 1.2rem;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 300;
+    font-weight: bold;
+    color:white;
+    margin: 0 0 0.5rem 0;
+
+}
+.contenedorDeTexto h6{
+    text-align: left;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
+    color:white;
+    font-size: 12px;
+}
+
+/* --- sección 3 */
+
+.contenedorSeccion3{
+    background-color: #e5e7e9;
+    display: flex;
+    width: 100%;
+    padding: 0 0 3rem 0 ;
+    gap: 10px;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.contenedorDeImagenSeccion3 {
+    width: 50%;
+
+}
+
+.imagenDeSeccion3{
+width: 50%;
+padding: 1.5rem 0 0 10rem;
+}
+
+.textoDeSeccion3{
+width: 50%;
+font-family: 'Prompt', sans-serif;
+font-weight: 400;
+color: #A8C279;
+}
+
+
+
+/*------------------ Footer ------------------- */
 
 footer{
     display: flex;
