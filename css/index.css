@@ -112,7 +112,74 @@ la pantalla principal */
     font-style: italic;
 }
 
-/* Seccion2 */
+.contenedorFlex{
+    width: 100%;
+    margin: auto;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:#e5e7e9;
+}
+
+.contenedorDeBotones {
+    width: 100%;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	gap: 40px;
+}
+
+.boton{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    background: #212f3d ;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+/*     text-align: center;
+ */    border: none;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 500;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+
+.boton::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #A8C279;
+    position: absolute;
+    z-index: 1;
+    top: -80px;
+    left: 0;
+    transition: .3s ease-in-out;
+
+}
+
+.boton:hover::after{
+    top:0;
+}
+.boton span {
+    position: relative;
+	z-index: 2;
+	transition: .3s ease all;
+}
+
+/* Esto posiblemente se reemplace por grid
+
 .seccion2{
     background-color: #e5e7e9;
     padding: 0 0 3rem 0;
@@ -131,9 +198,8 @@ la pantalla principal */
     display: flex;
     justify-content: space-evenly;
     padding: 0.75rem 0 0 0;
-} /* para modificar cada columna usar la clase "columna" */
+} 
 
-/* Seccion 3 */
 .seccion3{
     background-color: #e5e7e9;
     padding: 0 0 3rem 0;
@@ -145,8 +211,7 @@ la pantalla principal */
     justify-content: space-between;
     padding: 0 10rem 4rem 10rem;
     
-}/* si quiero modificar alguna de las dos columnas puedo usar la clase "misionyVision". También ver la forma de desplazar las 2 columnas*/
-
+}
 .mision{
     border-style: solid;
     border-width: 0.3rem;
@@ -169,17 +234,15 @@ la pantalla principal */
     margin: auto;
     border-radius: 10px;
 }
+*/
 
-/* comienza la seccion 4 */
 .seccion4{
     background-color: white;
     display: flex;
     width: 100%;
     padding: 0 0 3rem 0 ;
-/*     justify-content: center;
-    align-content: center; */
     gap: 10px;
-}
+} 
 
 .nuestrosClientes{
 width: 35%;
