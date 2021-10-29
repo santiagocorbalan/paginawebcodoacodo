@@ -152,7 +152,6 @@ la pantalla principal */
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
-
 }
 
 
@@ -182,7 +181,7 @@ la pantalla principal */
     background-color: white;
     display: flex;
     width: 100%;
-    padding: 0 0 3rem 0 ;
+    padding: 3rem 0 3rem 0 ;
     gap: 10px;
 } 
 
@@ -296,3 +295,12 @@ font-weight: 500;
     font-size: 3.5rem;
 }
 
+
+
+/* Prueba */
+
+.columnas{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.75rem 0 0 0;
+} 
