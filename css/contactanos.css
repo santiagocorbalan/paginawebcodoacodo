@@ -191,7 +191,7 @@ nav ul li a:hover{
     border: 1px solid #FFC300;
     font-family: 'calibri';
     font-size: 18px;
-    color: white;
+    color: rgb(43, 24, 24);
   }
   
   .formularioDeConsulta p {
