@@ -52,14 +52,14 @@
             </div>
         </h3>
     </div>
-    <form class="formularioDeConsulta" id= "formulario"> <!--form-register  controls -->
+    <form class="formularioDeConsulta" id= "formulario" method = "POST" onsubmit="return enviarFormulario();" name = "form"> <!--form-register  controls -->
         <h4>¿Algún comentario que quieras hacernos? ¡Te invito a que completes este formulario con tus comentarios!</h4>
-        <input class="campoDeFormulario" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
-        <input class="campoDeFormulario" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+        <input class="campoDeFormulario" type="text" name="nombres" id="nombre" placeholder="Ingrese su Nombre">
+        <input class="campoDeFormulario" type="text" name="apellido" id="apellido" placeholder="Ingrese su Apellido">
         <input class="campoDeFormulario" type="email" name="correo" id="correo" placeholder="Ingrese su Correo electronico">
-        <textarea class = "campoDeFormulario" name="comentario" rows="10" cols="40" placeholder="Escriba su consulta / comentario..."></textarea>
+        <textarea class = "campoDeFormulario" name="mensaje" rows="10" cols="40" placeholder="Escriba su consulta / comentario..."></textarea>
         <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
-        <input class="botons" type="submit" value="Enviar">
+        <input class="botons" type="submit" value="Enviar" id="botonEnviar" onclick = "enviarFormulario();" >
     </form>
 </div>
 </body>
