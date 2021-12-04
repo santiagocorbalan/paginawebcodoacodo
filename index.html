@@ -15,21 +15,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- To do: hacer responsive la página -->
-    <script src="js/index.js"></script>
+    <script> src="https://kit.fontawesome.com/7e5b2d153f.js"
+        crossorigin="anonymous"</script>
 </head>
 
 <body>
     <!-- Menú principal -->
-    <header>
-        <div class= "cajaDeMenu">
-            <div class ="logo">
-                <p><a href="">Venner PR</a></p>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="contactanos.html">Contactanos</a></li>
-                    <li><a href="sobreNosotros.html">Sobre nosotros</a></li>
+    <header class = "header">
+        <nav class= "nav">
+            <a href="#" class ="logo nav-link">Venner PR</a>
+            <button class = "nav-toggle" aria-label="Abrir menú">
+                <i class ="fas fa-bars"></i>
+            </button>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item">
+                        <a href="index.html" class= "nav-menu-link nav-link">Inicio</a></li>
+                    <li class="nav-menu-item">
+                        <a href="contactanos.html" class= "nav-menu-link nav-link">Contactanos</a></li>
+                    <li class="nav-menu-item">
+                        <a href="sobreNosotros.html" class= "nav-menu-link nav-link nav-menu-link_active">Sobre nosotros</a></li>
                 </ul>
             </nav>
         </div>
@@ -92,5 +96,7 @@
             </div>
         </div>
 </footer>
+<script src="js/index.js"></script> <!-- Lo agrego acá porque si lo pongo en el head me tira error -->
 </body>
+
 </html>
