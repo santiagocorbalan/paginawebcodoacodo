@@ -1,0 +1,290 @@
+.contenedorGrid{
+    display:grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, auto);
+    grid-gap: 20px;
+  }
+
+.header {
+    background-color: #212f3d;
+    height: 80px;
+/*     position: fixed; */
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 4;
+ }
+/* Configuración del menú */
+ .nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.nav-link {
+  color: rgb(236, 228, 228);
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0 40px;
+  line-height: 80px;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+}
+
+.nav-menu-item {
+/*   font-size: 15px; */
+  margin: 0 10px;
+  line-height: 55px;
+  width: max-content;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 400;
+}
+
+.nav-menu-link {
+  padding: 8px 12px;
+  border-radius: 3px;
+}
+
+.nav-menu-link:hover,
+.nav-menu-link_active {
+  background-color: #A8C279;
+  transition: 0.5s;
+}
+
+/* TOGGLE */
+.nav-toggle {
+  color: white;
+  background: none;
+  border: none;
+  font-size: 30px;
+  padding: 0 20px;
+  line-height: 60px;
+  cursor: pointer;
+
+  display: none;
+}
+
+ .contenedor > div,
+ .contenedor .header,
+ .contenedor .seccion1,
+ .contenedor .seccion2,
+ .contenedor .seccion3,
+ .contenedor .footer {
+   background: #fff;
+   padding: 20px;
+   border-radius: 4px;
+ }
+/* Sección 1 */
+ .seccion1{
+  background-color: blue;
+  grid-column-start: 1 ;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.frasePrincipal{
+  color:#17202a;
+  font-size: 3rem;
+  padding-left: 2rem;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 500;
+  font-weight: bold;
+}
+.fraseSecundaria{
+  color: #17202a;
+  font-size: 2rem;
+  padding-left: 2rem;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+/* Sección2 */
+
+ .seccion2{
+  background-color: burlywood;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.contenedorFlex{
+  width: 100%;
+  margin: auto;
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background:#e5e7e9;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.contenedorDeBotones {
+  width: 100%;
+display: grid;
+grid-template-columns: auto auto auto;
+gap: 40px;
+}
+
+.boton{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80px;
+  background: #212f3d ;
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+/*     text-align: center;
+*/    border: none;
+  cursor: pointer;
+  transition: .3s ease all;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 500;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+
+.boton::after{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #A8C279;
+  position: absolute;
+  z-index: 1;
+  top: -80px;
+  left: 0;
+  transition: .3s ease-in-out;
+
+}
+
+.boton:hover::after{
+  top:0;
+}
+.boton span {
+  position: relative;
+z-index: 2;
+transition: .3s ease all;
+}
+
+
+/* Sección 3 */
+.seccion3{
+  background-color: chartreuse;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  display: grid;
+  grid-template-columns: 33.3% 1fr;
+}
+
+.nuestrosClientes{
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 500;
+  }
+  
+  .nuestrosClientesTexto{
+
+  font-family: 'Prompt', sans-serif;
+  font-weight: 300;
+  }
+
+
+  /* Seccion 4 - footer */
+
+  .footer{
+  background-color: darkgreen;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.imglogo{
+  width: 200px;
+  height: 200px;
+  padding: 100px 0 0 100px;
+}
+
+/*--- Columna 2 del footer  */
+.columnaFooter1{
+  color: white;
+}
+
+.columnaFooter1 h2 {
+  padding: 0 0 2rem 0;
+  text-align: center;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 500;
+}
+
+.columnaFooter1 iframe{
+  text-align: center;
+  border: 2px solid rgb(223, 219, 219);
+  width: 100%;
+}
+
+.output {
+  background: #eee;
+}
+
+/*--- Columna 3 del footer  */
+
+.columnaFooter2{
+  color: white;
+}
+
+.columnaFooter2 h2 {
+text-align: center;
+font-family: 'Prompt', sans-serif;
+font-weight: 500;
+}
+
+/* Preguntar la diferencia entre justify-content y align-content */
+.contenedorDeIconos {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+padding: 100px 0 0 20px;
+} 
+
+.contenedorDeIconos a:nth-child(1){
+  color: #3b5998;
+  font-size: 3.5rem;
+}
+
+.contenedorDeIconos a:nth-child(2){
+  color: #fff;  /* Averiguar como hacer para dar varios colores a un Icono */
+  font-size: 3.5rem;
+/*  background-image: linear-gradient(red,yellow);
+*/}
+
+.contenedorDeIconos a:nth-child(3){
+  color:#c4302b;
+  font-size: 3.5rem;
+}
+
+.contenedorDeIconos a:nth-child(4){
+  color: #fff;
+  font-size: 3.5rem;
+}
+
+
