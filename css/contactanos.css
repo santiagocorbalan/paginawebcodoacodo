@@ -4,75 +4,68 @@
     padding: 0;
 }
 
-header{
-    width: 100%;
-    background-color:#212f3d;
-    height: 70px;
-    position:fixed;
-    z-index: 100; /* mostrar el menu por encima de todos los elementos */
-}
+.header {
+    background-color: #212f3d;
+    height: 80px;
+/*     position: fixed; */}
 
-.cajaDeMenu
-{
-    width: 80%;
-    height: 70px;
-    /* background:red; */
-    margin: auto; /* reacomoda en el centro del tamaño de la caja de menú */
-}
-
-.logo
-{
-    width: 30%;
-    height: 70px;
-/*     background: blue; */
-    float: left;
-    padding-top: 10px;
-    box-sizing: border-box; /* // fuerza a ocupar el ancho del contenedor */
-}
-
-.logo p a 
-{
-    color: #e5e7e9;
-    font-size: 40px;
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  
+  .nav-link {
+    color: rgb(236, 228, 228);
     text-decoration: none;
-}
-
-nav
-{
-    width: 70%;
-    height: 70px;
-/*     background: olive; */
-    float: left;
-    text-align: right;
-    padding-top: 24px; /* esto es para centralizar el menú en la navegación */
-    box-sizing: border-box;
-}
-
-nav ul li 
-{
-    display: inline;
-    
-}
-
-nav ul li a 
-{
-    color: white;
-    font-size: 13 px;
-    text-decoration: none;
-    padding-left: 15px;
+  }
+  
+  .logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+  }
+  
+  .nav-menu {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-menu-item {
+  /*   font-size: 15px; */
+    margin: 0 10px;
+    line-height: 85px;
+    width: max-content;
     font-weight: bold;
     letter-spacing: 1px;
     font-family: 'Prompt', sans-serif;
-    font-weight: 400; /* Fuente para la barra de navegación */
-}
-
-nav ul li a:hover{
-    color:#DAF7A6;
-}
-/* .active {
-    background-color: #04AA6D;
-} */
-
+    font-weight: 400;
+  }
+  
+  .nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 3px;
+  }
+  
+  .nav-menu-link:hover,
+  .nav-menu-link_active {
+    background-color: #A8C279;
+    transition: 0.5s;
+  }
+  
+  /* TOGGLE */
+  .nav-toggle {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    cursor: pointer;
+  
+    display: none;
+  }
 /* -------------------------- Body ----------------------- */
 
 /* Como usé la propiedad position: fixed tengo que darle un padding para que no se pise con el menú*/
